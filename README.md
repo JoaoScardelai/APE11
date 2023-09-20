@@ -27,3 +27,13 @@ As razões por muitos desenvolvedores e equipes de desenvolvimento preferem o Gi
 3. Branching: com o Git é possível utilizar branches (ramificações) permitindo ao desenvolvimento trabalhar em várias funcionalidades, correções de bugs e realizar melhorias simultaneamente sem atrapalhar o trabalho da outra pessoa. A merge de branches é de fácil acesso e confiança;  
 4. Histórico Completo: no Git é mantido um histórico completo de todas as alterações do código, permitindo realizar auditorias bem detalhadas e ser possível retornar as versões anteriores do código. Sempre mantendo a integridade e segurança dos dados por um hash criptografado;
 5. Suporte: o Git possui uma comunidade de desenvolvimento e suporte muito ativa, sempre auxiliando e reforçando com novos recursos e ajuda a comunidade.  
+
+## 5. Qual a importância da utilização do controle de versionamento no desenvolvimento de software?
+Quando utilizamos o controle de versionamento temos a possibilidade de:
+1. Rastrear as alterações do código, facilitando as futuras manutenções no código e a qualidade do software;  
+2. Colaboração com outros desenvolvedores;  
+3. Gerenciar todos os conflitos da funcionalidade;  
+4. Reverter e Excluir alterações de formas eficientes;  
+5. Integração com automação de tarefas, testes e implementação de códigos;  
+6. Facilidade na correção de bugs, sem gerar muitos riscos e conflitos no software;
+7. Facilidade na alteração da Arquitetura do Software, onde a longo prazo pode trazer grandes alterações e impactar toda a arquitetura construída. Com o versionamento é possível ver a evolução do software com mais facilidade.  
