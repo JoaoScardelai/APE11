@@ -15,4 +15,7 @@ O versionamento é importante pois conseguimos:
 1. Acompanhar as alterações do código como as correções de bugs, melhorias implementadas, grandes adições no software;  
 2. A colaboração de outras pessoas com a funcionalidade que está sendo desenvolvida em diversas partes do código ao mesmo tempo, mesclando as alterações de forma eficiente;  
 3. Recuperar Versões do código que causou algum problema ou restaurar funcionalidades;  
-4. Uso de Branches para testes das funcionalidades sem afetar a versão principal do software.
+4. Uso de Branches para testes das funcionalidades sem afetar a versão principal do software.  
+
+## 3. Por que utilizar o Git como controle de versionamento?
+O Git é excelente para se utilizar no controle de versionamento por sua facilidade, eficiência e agilidade em instalar, configurar, utilizar, considerada pelos desenvolvedores uma ferramenta essencial para se trabalhar e se ter conhecimento. Por ser um software Open-Source, possui compatibilidade e integração com diversos outros softwares como o Jira - GitHub - GitLab, onde podemos realizar configurações para uma melhor visualização do cliente e outras pessoas envolvidas no desenvolvimento do software, auxiliando na apresentação do histórico de versões. O preço de se utilizar o Git é um diferencial dele, pois é gratuito e acessível a qualquer pessoa, equipes e empresas sem ter um custo para licenças.
