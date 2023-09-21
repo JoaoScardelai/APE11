@@ -42,12 +42,24 @@
                 Uma <b>Tag</b> é o rótulo ligado a um momento no histórico do desenvolvimento de uma aplicação, servindo para identificar uma versão do software onde estejam estáveis, prontas para lançamento ou pontos importantes que foram alterados ou adicionados na aplicação. As tags possuem uma regra de identificação, sendo elas a versão de lançamento (1.0, 3.0, ...), versão de correção (v1.0.1, v1.0.2) ou versões beta, alfa, delta.<br>
                 As tags auxiliam na recuperação do software, muito útil nas implantações, para os testes da aplicação e solucionar possíveis bugs, facilmente recuperados com a determinada versão com erro. Ajudam no entendimento do que foi feito, pois os commits podem ter nomes grandes e dificultam o entendimento, já as tags são mais simples de serem entendidas. No git para criar uma tag utilizamos o comando <b>git tag v0.0.0 -m "caso queira uma mensagem"</b>.
             </p>
-            
+
             <br>
 
             <h2><b>4. O que é branch?</b></h2>
             <p>
                 A <b>Branch</b> (ramo, ing.) é a cópia dos arquivos do projeto para você trabalhar de forma isolada em qualquer alteração sem mexer na branch principal (main ou master). As branches possuem um histórico próprio e é utilizado para desenvolver novas funcionalidades dentro do sistema permitindo o desenvolvimento e os testes da alteração/adição antes de subir para a branch main, utilizada também para corrigir bugs e improvements sendo testadas separadamente antes de subir para a branch main. Utilizada também para trabalhos em paralelo com equipes grandes de desenvolvedores, onde cada um atua em sua tarefa específica sem gerar conflitos. As branches também auxiliam a atuar em versões anteriores do sistema, onde o cliente normalmente utiliza versões anteriores do desenvolvimento e com possíveis bugs dessas versões do cliente é possível ajustar os problemas. No git para criar uma branch é utilizado o comando <b>git checkout com a flag -b</b>.
+            </p>
+
+            <br>
+
+            <h2><b>5. Como resolver possíveis conflitos no Git?</b></h2>
+            <p>
+                Mesmo o Git sendo uma ótima ferramenta de controle de versão, quando trabalhamos com outras pessoas ou até mesmo aplicações pessoais podemos nos deparar com alguns problemas e conflitos e para resolver tais poderemos:<br>
+                1. Visualizar os históricos e ver onde foi gerado o problema com o comando <b>git log ou git diff</b>, podendo visualizar qual o conflito como um erro durante um commit, uma branch incorreta que foi mal utilizada e etc;<br>
+                2. Verificar por meio do comando <b>git status</b> o status do respositório local, onde irá nos informar quais arquivos foram modificados, a branch atual e os commits que estão sem adicionar;<br>
+                3. Ter um backup do repositório e dos arquivos mais importantes antes de subir algum commit, ajudando caso perca alguma informação importante;<br>
+                4. Utilizar os comandos <b>git reset ou git revert</b> para voltar a um estado anterior do repositório local e fazer as alterações necessárias;
+                5. Caso trabalhe em equipe com outros desenvolvedores, pedir ajuda é sempre bom e já garante um aprendizado com o colega de trabalho que tenha mais conhecimento que você ou procurar documentações e ajuda da comunidade do Git.
             </p>
         </div>
     </body>
