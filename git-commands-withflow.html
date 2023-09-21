@@ -24,6 +24,26 @@
 
         <header>
             <h1 class="top">Comandos do Git com Flow</h1>
+            <h2 class="top">O que é Git Flow?</h2>
+            <p>
+                <b>Git Flow</b> é o fluxo de trabalho do Git para facilitar o processo de desenvolvimento com uma série de comandos adicionais para o Git. O Git Flow utiliza uma Branch Main (principal) associada outras versões da aplicação faciliando o acesso de versões antigas, na main sempre estará em produção (com o cliente utilizando), sendo somente possível interagir com ela por meio do Hotfix ou Release.<br>
+                Temos também a Branch Develop que é a cópia da Branch Main com as últimas funcionalidades implementadas, sendo a base principal para novas features. A Branch feature é uma temporária no fluxo de trabalho, contendo uma nova funcionalidade da aplicação onde deverá começar e terminar OBRIGATORIAMENTE na develop.<br>
+                E para finalizar temos a Branch Hotfix e Release, a Hotfix é utilizada como um branch temporária com uma correção que ocorreu no ambiente de produção e que deveria ser atuada com prioridade e a Release é a branch para lançar a aplicação, unindo todas as novas funcionalidades e jogando para branch Main.
+            </p>
+            <h3 class="top"> Comandos do Git Flow</h3>
+            <p>
+                <b>git flow init</b>: é o comando para iniciar um projeto com o Git Flow dentro da aplicação;<br>
+                <b>git flow feature start nome</b>: é o comando para criar uma branch da aplicação;<br>
+                <b>git flow release start v0.0.0</b>: é o comando para iniciar uma nova branch de lançamento da aplicação;<br>
+                <b>git flow hotfix start nome-bug</b>: é o comando para iniciar a hotfix com a correção de bugs;<br>
+                <b>git flow feature pull origin nome</b>: é o comando para pegar as modificações da develop para a branch atual;<br>
+                <b>git flow feature publish nome</b>: é o comando para publicar uma branch no repositório remoto;<br>
+                <b>git flow release pull origin v0.0.0</b>: é o comando para pegar as modificações da develop para a branch de lançamento;<br>
+                <b>git flow hotfix pull origin nome-bug</b>: é o comando para pegar as modificações da branch master para a branch de hotfix (corrigir bugs);<br>
+                <b>git flow feature finish nome</b>: é o comando para finalizar a branch da feature;<br>
+                <b>git flow release finish nome</b>: é o comando para finalizar a branch da release;<br>
+                <b>git flow hotfix finish nome</b>: é o comando para finalizar a branch da hotfix.<br>
+            </p>
         </header>
     </body>
 
