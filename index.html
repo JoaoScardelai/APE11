@@ -26,6 +26,14 @@
             <p>
                 O <b>Commit</b> é a operação que registra as alterações realizadas em um sistema de controle de versão, fixando todas as modificações realizadas no momento dentro do histórico do projeto. O commit também é acompanhado de uma mensagem do próprio usuário informando o que foi alterado ou adicionado. A melhor forma de utilizarmos o commit é sempre manter as mensagens de forma claras do que foi alterado e qual o motivo de tal alteração, facilitando na hora de manutenção do código ou auditoria. Commits devem ser feitos com frequência para sempre manter documentadas as alterações e manter o histórico do projeto em dia, porém nunca podem ser utilizados com excesso dificultando a compreensão do histórico.
             </p>
+            
+            <br>
+
+            <h2><b>Qual a diferença entre commit e push?</b></h2>
+            <p>
+                O <b>Commit</b> é a operação de registrar arquivos que foram alterados ou adicionados incluindo uma mensagem enviado para o seu repositório local (máquina), criando um histórico das suas alterações. Porém antes de realizar o commit é necessário adicionar as suas alterações no commit com o comando <b>git add</b>, onde será movido as alterações para a staging area onde ficarão prontas para o commit. No Git o comando de commit é <b>git commit</b>.<br>
+                Já o <b>Push</b> é a operação de "empurrar" todos os commits do seu repositório local para um repositório remoto hospedado (Github por exemplo), onde nesse repositório remoto ficará registrado todos os seus commits locais, onde você compartilha as suas alterações no código com outros desenvolvedores ou equipe com quem você trabalha. Porém antes de realizar um push é necessário ter um pelo menos um commit no seu repositório local, e após realzar o commit você poderá realizar o push. No Git o comando de push é <b>git push.</b>
+            </p>
         </div>
     </body>
 
