@@ -34,13 +34,20 @@
                 O <b>Commit</b> é a operação de registrar arquivos que foram alterados ou adicionados incluindo uma mensagem enviado para o seu repositório local (máquina), criando um histórico das suas alterações. Porém antes de realizar o commit é necessário adicionar as suas alterações no commit com o comando <b>git add</b>, onde será movido as alterações para a staging area onde ficarão prontas para o commit. No Git o comando de commit é <b>git commit</b>.<br>
                 Já o <b>Push</b> é a operação de "empurrar" todos os commits do seu repositório local para um repositório remoto hospedado (Github por exemplo), onde nesse repositório remoto ficará registrado todos os seus commits locais, onde você compartilha as suas alterações no código com outros desenvolvedores ou equipe com quem você trabalha. Porém antes de realizar um push é necessário ter um pelo menos um commit no seu repositório local, e após realzar o commit você poderá realizar o push. No Git o comando de push é <b>git push.</b>
             </p>
-            
+
             <br>
 
             <h2><b>3. O que é tag?</b></h2>
             <p>
                 Uma <b>Tag</b> é o rótulo ligado a um momento no histórico do desenvolvimento de uma aplicação, servindo para identificar uma versão do software onde estejam estáveis, prontas para lançamento ou pontos importantes que foram alterados ou adicionados na aplicação. As tags possuem uma regra de identificação, sendo elas a versão de lançamento (1.0, 3.0, ...), versão de correção (v1.0.1, v1.0.2) ou versões beta, alfa, delta.<br>
                 As tags auxiliam na recuperação do software, muito útil nas implantações, para os testes da aplicação e solucionar possíveis bugs, facilmente recuperados com a determinada versão com erro. Ajudam no entendimento do que foi feito, pois os commits podem ter nomes grandes e dificultam o entendimento, já as tags são mais simples de serem entendidas. No git para criar uma tag utilizamos o comando <b>git tag v0.0.0 -m "caso queira uma mensagem"</b>.
+            </p>
+            
+            <br>
+
+            <h2><b>4. O que é branch?</b></h2>
+            <p>
+                A <b>Branch</b> (ramo, ing.) é a cópia dos arquivos do projeto para você trabalhar de forma isolada em qualquer alteração sem mexer na branch principal (main ou master). As branches possuem um histórico próprio e é utilizado para desenvolver novas funcionalidades dentro do sistema permitindo o desenvolvimento e os testes da alteração/adição antes de subir para a branch main, utilizada também para corrigir bugs e improvements sendo testadas separadamente antes de subir para a branch main. Utilizada também para trabalhos em paralelo com equipes grandes de desenvolvedores, onde cada um atua em sua tarefa específica sem gerar conflitos. As branches também auxiliam a atuar em versões anteriores do sistema, onde o cliente normalmente utiliza versões anteriores do desenvolvimento e com possíveis bugs dessas versões do cliente é possível ajustar os problemas. No git para criar uma branch é utilizado o comando <b>git checkout com a flag -b</b>.
             </p>
         </div>
     </body>
